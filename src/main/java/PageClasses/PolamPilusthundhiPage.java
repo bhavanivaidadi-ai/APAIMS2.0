@@ -1,0 +1,24 @@
+package PageClasses;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+import static Utilities.Xpaths.SchemesModuleClick;
+
+public class PolamPilusthundhiPage {
+   WebDriver driver;
+   WebDriverWait wait;
+    public PolamPilusthundhiPage(WebDriver driver){
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+    }
+
+//    public void SchemesModuleClick(){
+//        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(SchemesModuleClick));
+//        driver.findElement(SchemesModuleClick).click();
+//    }
+}
