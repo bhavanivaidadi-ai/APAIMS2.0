@@ -22,6 +22,10 @@ public class LoginStep {
 
     }
 
+    @And("the user completes the captcha verification")
+    public void complete_captcha(){
+
+    }
     @And("the user clicks on the login button")
     public void user_clicks_login_btn(){
         loginPage.Login();
@@ -31,6 +35,8 @@ public class LoginStep {
     public void user_login_done_successfully(){
         loginPage.ValidationOfSuccess();
     }
+
+
 
 
 

@@ -5,7 +5,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-
 import static Utilities.Xpaths.*;
 
 public class LoginPage {
@@ -50,10 +49,10 @@ public class LoginPage {
 
     public void navigate_loginPage() {
 
-        //boolean cookiesLoaded = CookieManager.loadCookies(driver);
-
-        //driver.navigate().refresh();
-
+//        boolean cookiesLoaded = CookieManager.loadCookies(driver);
+//
+//        driver.navigate().refresh();
+//
 //        if (cookiesLoaded) {
 //            System.out.println("Logged in using existing cookies. Skipping login page.");
 //        } else {
