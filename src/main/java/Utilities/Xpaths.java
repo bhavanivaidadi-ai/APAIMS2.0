@@ -17,7 +17,12 @@ public class Xpaths {
 
 
     // Polam Pilusthundhi(Started)
-
     public static By SchemesModuleClick = By.xpath("//span[normalize-space()='Schemes']");
+
+
+
+    //M&E module Started
+    public static By Mobile_Number_Not_Verified_popup = By.xpath("//div[@class=\"ng-tns-c2196985156-8 p-dialog-header-actions\"]");
+
 
 }
