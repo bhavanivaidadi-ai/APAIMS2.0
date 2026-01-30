@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"603171e0-ddb8-4b70-b456-f614c6d6ef38","feature":"User Login to Website","scenario":"User is able to log in after handling captcha","start":1767788747396,"group":1,"content":"","tags":"","end":1767788755517,"className":"passed"},{"id":"5c22e331-5bbd-4a42-9334-01eacf90b78e","feature":"user able to verify the data entered by mobile view","scenario":"user is exploring and cross verifying the data after entering through mobile","start":1767788755528,"group":1,"content":"","tags":"","end":1767788767132,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[#1,main,5,main]"}]);
+});
