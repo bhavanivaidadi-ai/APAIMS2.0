@@ -11,7 +11,7 @@ Feature: data
     Then the user should be logged in successfully
     Then close the Mobile Number Not Verified pop up
     Then Click on ClusterDemonstration icon
-    Then Click on ClusterDemonstration Tab
+#    Then Click on ClusterDemonstration Tab
 
 
 #    Then the user clicks on the schemes module
