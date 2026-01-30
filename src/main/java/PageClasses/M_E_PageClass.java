@@ -1,6 +1,7 @@
 package PageClasses;
 
 import Utilities.Xpaths;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,6 +22,8 @@ public class M_E_PageClass {
     }
 
     public void click_on_M_E_Button(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,1000)", "");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.m_E_Button));
         driver.findElement(Xpaths.m_E_Button).click();
     }
