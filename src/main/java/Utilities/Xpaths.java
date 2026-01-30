@@ -26,5 +26,10 @@ public class Xpaths {
     public static By m_E_Button = By.xpath("//a[@href=\"/monitoring-evaluation\"]");
     public static By m_E_Button1 = By.xpath("//a[@href=\"/monitoring-evaluation\"]");
 
+     //ClusterDemonstration
+    public static By ClusterDemonstration_Button= By.xpath("//div[@class=\"p-panelmenu-header-content ng-tns-c1770405469-16\"]");
+    public static By ClusterDemonstration_Tab = By.xpath("div[class='p-menubar-item-link ng-star-inserted active'] span[class='ml-2 w-full']");
+
+
 
 }
