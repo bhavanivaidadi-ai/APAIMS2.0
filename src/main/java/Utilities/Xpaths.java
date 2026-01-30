@@ -25,5 +25,10 @@ public class Xpaths {
     public static By Mobile_Number_Not_Verified_popup = By.xpath("//div[@class=\"ng-tns-c2196985156-8 p-dialog-header-actions\"]");
     public static By m_E_Button = By.xpath("//a[@href='/monitoring-evaluation']");
 
+     //ClusterDemonstration
+    public static By ClusterDemonstration_Button= By.xpath("//div[@class=\"p-panelmenu-header-content ng-tns-c1770405469-16\"]");
+    public static By ClusterDemonstration_Tab = By.xpath("div[class='p-menubar-item-link ng-star-inserted active'] span[class='ml-2 w-full']");
+
+
 
 }
