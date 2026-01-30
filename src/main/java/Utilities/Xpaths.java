@@ -18,6 +18,6 @@ public class Xpaths {
 
     // Polam Pilusthundhi(Started)
 
-    public static By SchemesModuleClick = By.xpath("//span[normalize-space()='Schemes']");
+    public static By SchemesModuleClick = By.xpath("//span[normalize-space()='Crop Planning']");
 
 }

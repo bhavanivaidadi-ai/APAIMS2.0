@@ -8,8 +8,8 @@ public class PolamPilusthundhiStep {
 
     PolamPilusthundhiPage polamPilusthundhiPage = new PolamPilusthundhiPage(WebDriverInitializer.getDriver());
 
-//    @Then("the user clicks on the schemes module")
-//    public void user_clicks_schemes_module(){
-//        polamPilusthundhiPage.SchemesModuleClick();
-//    }
+    @Then("the user clicks on the schemes module")
+    public void user_clicks_schemes_module(){
+        polamPilusthundhiPage.SchemesModuleClick();
+    }
 }

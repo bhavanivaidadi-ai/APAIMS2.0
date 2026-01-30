@@ -11,7 +11,7 @@ Feature: user able to verify the data entered by mobile view
     And the user completes the captcha verification
     And the user clicks on the login button
     Then the user should be logged in successfully
-#    Then the user clicks on the schemes module
+    Then the user clicks on the schemes module
 
 
     Examples:
