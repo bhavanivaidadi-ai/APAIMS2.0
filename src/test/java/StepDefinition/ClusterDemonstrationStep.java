@@ -13,8 +13,8 @@ public class ClusterDemonstrationStep {
         CD.click_on_ClusterDemonstration_Button();
 
     }
-    @Then("Click on ClusterDemonstration Tab")
-    public void click_on_CD_Tab() {
-        CD.click_on_ClusterDemonstration_Button();
-    }
+//    @Then("Click on ClusterDemonstration Tab")
+//    public void click_on_CD_Tab() {
+//        CD.click_on_ClusterDemonstration_Button();
+//    }
 }
