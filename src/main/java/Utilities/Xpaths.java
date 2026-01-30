@@ -24,10 +24,7 @@ public class Xpaths {
     //M&E module Started
     public static By Mobile_Number_Not_Verified_popup = By.xpath("//div[@class=\"ng-tns-c2196985156-8 p-dialog-header-actions\"]");
     public static By m_E_Button = By.xpath("//a[@href=\"/monitoring-evaluation\"]");
-    public static By district_wise_normal_area_tab = By.xpath("//span[normalize-space()='District Wise Normal Areas']");
-    public static By mis_tab = By.xpath("//input[@id='mis']");
-    public static By pest_disease_tab = By.xpath("//span[normalize-space()='Pest & Disease Reports']");
-    public static By harvest_report_tab = By.xpath("//span[normalize-space()='Harvest Reports']");
-    public static By analytics_reports_tab = By.xpath("//span[normalize-space()='Analytics Reports']");
-    public static By reconciliation_Reports_tab = By.xpath("//span[normalize-space()='Reconciliation Reports']");
+    public static By m_E_Button1 = By.xpath("//a[@href=\"/monitoring-evaluation\"]");
+
+
 }
