@@ -24,6 +24,7 @@ public class Xpaths {
     //M&E module Started
     public static By Mobile_Number_Not_Verified_popup = By.xpath("//div[@class=\"ng-tns-c2196985156-8 p-dialog-header-actions\"]");
     public static By m_E_Button = By.xpath("//a[@href=\"/monitoring-evaluation\"]");
+    public static By m_E_Button1 = By.xpath("//a[@href=\"/monitoring-evaluation\"]");
 
 
 }

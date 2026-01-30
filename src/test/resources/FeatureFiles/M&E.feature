@@ -2,7 +2,6 @@ Feature: data
 
   After login successfully user able to cross verify the data
 
-
   Scenario Outline: user is exploring and cross verifying the data
 
     Given the user is on the website login page
