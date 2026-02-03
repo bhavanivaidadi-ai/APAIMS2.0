@@ -14,7 +14,22 @@ public class ClusterDemonstrationStep {
 
     }
     @Then("Click on ClusterDemonstration Tab")
-    public void click_on_CD_Tab() {
-        CD.click_on_ClusterDemonstration_Button();
+    public void click_on_CD_Tab() throws InterruptedException {
+        CD.click_on_ClusterDemonstration_Tab();
+        Thread.sleep(1000);
+    }
+    @Then("Click on ClusterDemonstration MIS")
+    public void click_on_CD_MIS() {
+        CD.click_on_ClusterDemonstration_MIS();
+    }
+    @Then("Click on ClusterDemonstration District Target Report")
+    public void click_on_CD_District_Target_Report() {
+        CD.click_on_ClusterDemonstration_DistTR();
+        Thread.sleep(1000);
+    }
+    @Then("Click on ClusterDemonstration Mandal Target Report")
+    public void click_on_CD_Mandal_Target_Report() {
+        CD.click_on_ClusterDemonstration_MandalTR();
+        Thread.sleep(1000);
     }
 }
