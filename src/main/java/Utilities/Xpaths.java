@@ -33,5 +33,10 @@ public class Xpaths {
     public static By ClusterDemonstration_MandalTR = By.xpath("//p-button[@label='Mandal Targets Report']");
     public static By ClusterDemonstartion_header = By.xpath("//span[@class='font-bold']");
 
+    //SMS Module Started
+
+    public static By SMS_module_click = By.xpath("//span[text() = ' SMS Farmer Advisory ']");
+
+
 
 }
