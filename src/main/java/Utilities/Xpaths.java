@@ -30,5 +30,10 @@ public class Xpaths {
     public static By ClusterDemonstration_Tab = By.xpath("div[class='p-menubar-item-link ng-star-inserted active'] span[class='ml-2 w-full']");
 
 
+    //SMS Module Started
+
+    public static By SMS_module_click = By.xpath("//span[text() = ' SMS Farmer Advisory ']");
+
+
 
 }
