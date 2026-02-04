@@ -17,7 +17,7 @@ public class SmsPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    public void SMS_module_click(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated());
-    }
+//    public void SMS_module_click(){
+//        wait.until(ExpectedConditions.visibilityOfElementLocated());
+//    }
 }
