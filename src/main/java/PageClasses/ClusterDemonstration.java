@@ -15,10 +15,10 @@ public class ClusterDemonstration {
         this.driver = driver;
         this.wait = new WebDriverWait(driver ,Duration.ofSeconds(100));
     }
-//    public void close_popup(){
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.Mobile_Number_Not_Verified_popup));
-//        driver.findElement(Xpaths.Mobile_Number_Not_Verified_popup).click();
-//    }
+    public void close_popup(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.Mobile_Number_Not_Verified_popup));
+        driver.findElement(Xpaths.Mobile_Number_Not_Verified_popup).click();
+    }
     public void click_on_ClusterDemonstration_Button(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.ClusterDemonstration_Button));
         driver.findElement(Xpaths.ClusterDemonstration_Button).click();
@@ -27,4 +27,19 @@ public class ClusterDemonstration {
         wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.ClusterDemonstration_Tab));
         driver.findElement(Xpaths.ClusterDemonstration_Tab).click();
     }
+    public void click_on_ClusterDemonstration_MIS() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.ClusterDemonstration_MIS));
+        driver.findElement(Xpaths.ClusterDemonstration_MIS).click();
+    }
+    public void click_on_ClusterDemonstration_DistTR() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.ClusterDemonstration_DistTR));
+        driver.findElement(Xpaths.ClusterDemonstration_DistTR).click();
+    }
+    public void click_on_ClusterDemonstration_MandalTR() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.ClusterDemonstration_MandalTR));
+        driver.findElement(Xpaths.ClusterDemonstration_MandalTR).click();
+    }
+
+
+
 }
