@@ -35,8 +35,19 @@ public class Xpaths {
 
     //SMS Module Started
 
-    public static By SMS_module_click = By.xpath("//span[text() = ' SMS Farmer Advisory ']");
-
-
+    public static By SMS_module_click = By.xpath("//span[contains(normalize-space(),'SMS Farmer Advisory')]/ancestor::a");
+    public static By Seson_dropdown = By.xpath("//p-select[@id = 'year']");
+    public static By select_year = By.xpath("//span[text()='2023-24']");
+    public static By select_season = By.xpath("//p-select[@id = 'season']");
+    public static By select_season_value = By.xpath("//li[@id = 'season_1']");
+    public static By select_department = By.xpath("//p-select[@id = 'dept']");
+    public static By select_deprt_value = By.xpath("//li[@id ='dept_0']");
+    public static By select_group = By.xpath("//p-multi-select[@id = 'group']");
+    public static By select_group_value = By.xpath("//li[@id ='group_3']");
+    public static By selct_crop_name = By.xpath("//p-multi-select[@id ='crop']");
+    public static By select_crop_value = By.xpath("//li[@id ='crop_4']");
+    public static By select_broadcast = By.xpath("//p-select[@id = 'broadCast']");
+    public static By select_value_brodcast = By.xpath("//li[@id = 'broadCast_0']");
+    public static By select_template = By.xpath("//span[text()='Select Master Template']");
 
 }
