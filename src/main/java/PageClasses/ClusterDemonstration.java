@@ -1,6 +1,8 @@
 package PageClasses;
 
 import Utilities.Xpaths;
+import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -39,7 +41,11 @@ public class ClusterDemonstration {
         wait.until(ExpectedConditions.visibilityOfElementLocated(Xpaths.ClusterDemonstration_MandalTR));
         driver.findElement(Xpaths.ClusterDemonstration_MandalTR).click();
     }
-
+    public void verify_ClusterDemonstration_Header() {
+        String expectedText = "Andhra Pradesh ( STATE )";
+        String actualText = driver.findElement(Xpaths.ClusterDemonstartion_header).getText();
+        Assert.assertEquals(actualText, expectedText);
+    }
 
 
 }

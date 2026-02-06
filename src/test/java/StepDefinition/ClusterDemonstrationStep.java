@@ -4,6 +4,7 @@ import PageClasses.ClusterDemonstration;
 import PageClasses.M_E_PageClass;
 import driver.WebDriverInitializer;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 
 public class ClusterDemonstrationStep {
     ClusterDemonstration CD = new ClusterDemonstration(WebDriverInitializer.getDriver());
@@ -32,4 +33,12 @@ public class ClusterDemonstrationStep {
         CD.click_on_ClusterDemonstration_MandalTR();
         Thread.sleep(1000);
     }
+    @Then("I should see the header as {string}")
+    public void i_should_see_the_header_as(String expectedText ) {
+        CD.verify_ClusterDemonstration_Header();
+
+    }
+
+
+
 }
