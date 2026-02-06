@@ -11,8 +11,11 @@ Feature: data
     Then the user should be logged in successfully
     Then close the Mobile Number Not Verified pop up
     Then Click on ClusterDemonstration icon
-#    Then Click on ClusterDemonstration Tab
-
+    Then Click on ClusterDemonstration Tab
+    #Then Click on ClusterDemonstration MIS
+    Then I should see the header as "Andhra Pradesh ( STATE )"
+    Then Click on ClusterDemonstration District Target Report
+    Then Click on ClusterDemonstration Mandal Target Report
 
 #    Then the user clicks on the schemes module
 
